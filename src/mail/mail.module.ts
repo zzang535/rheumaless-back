@@ -10,8 +10,8 @@ import { MailService } from './mail.service';
         host: 'smtp.gmail.com',
         port: 587,
         auth: {
-          user: 'zzang535',
-          pass: 'iwkdhnruqihqries',
+          user: process.env.USER,
+          pass: process.env.PASS,
         },
       },
       defaults: {
